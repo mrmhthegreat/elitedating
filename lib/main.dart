@@ -13,6 +13,7 @@ import 'package:eliteinapp/app/routes/app_pages.dart';
 import 'package:eliteinapp/introduction_animation/components/notification.dart';
 import 'package:eliteinapp/introduction_animation/onboarding_screen.dart';
 import 'package:nb_utils/nb_utils.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 @pragma('vm:entry-point')
 void downloadCallback(String id, int status, int progress) {
@@ -46,7 +47,7 @@ Future<void> main() async {
   initialize();
   await FlutterDownloader.initialize(ignoreSsl: true);
   await FlutterDownloader.registerCallback(downloadCallback);
-
+   
   var a = getBoolAsync('into');
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
@@ -57,7 +58,7 @@ Future<void> main() async {
           debugShowCheckedModeBanner: false,
           getPages: AppPages.routes,
           title: "Elite",
-          home: a ? const InitScreen() : const OnboardingScreen()))));
+          home: !a ? const InitScreen() : const OnboardingScreen()))));
 }
 
 class InitScreen extends StatefulWidget {
@@ -71,6 +72,7 @@ class _InitScreenState extends State<InitScreen> {
   @override
   void initState() {
     super.initState();
+  
     // FirebaseMessaging.instance
     //     .getInitialMessage()
     //     .then((RemoteMessage? message) async {

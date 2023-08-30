@@ -45,6 +45,11 @@ class _WebViewMiniState extends State<WebViewMini> {
     } else {
       if (hidestaus.value) {
         setStatusBarColor(HexColor("#F40176"));
+        SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      systemNavigationBarColor: HexColor("#FFFFFF"),
+      systemNavigationBarDividerColor: HexColor("#FFFFFF"),
+      systemNavigationBarIconBrightness: Brightness.dark,
+    ));
         hidestaus.value = false;
       }
     }
