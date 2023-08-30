@@ -58,7 +58,7 @@ Future<void> main() async {
           debugShowCheckedModeBanner: false,
           getPages: AppPages.routes,
           title: "Elite",
-          home: !a ? const InitScreen() : const OnboardingScreen()))));
+          home: a ? const InitScreen() : const OnboardingScreen()))));
 }
 
 class InitScreen extends StatefulWidget {
