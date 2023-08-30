@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "925868396194",
+    "firebase_url": "https://yesrasew-dde22-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "yesrasew-dde22",
+    "storage_bucket": "yesrasew-dde22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925868396194:android:38749704d8a4b2907011fb",
+        "android_client_info": {
+          "package_name": "com.yesrasew.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925868396194-l09oi7gidnotbjk8cbug4o63lmf72hhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzmGsJvXydw5Mp-DoAHxy1_ToA8FzP4RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925868396194-l09oi7gidnotbjk8cbug4o63lmf72hhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
