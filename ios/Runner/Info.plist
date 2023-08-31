@@ -13,7 +13,7 @@
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundleName</key>
-		<string>medifiker</string>
+		<string>Elite</string>
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>
@@ -50,16 +50,15 @@
 		<key>NSCameraUsageDescription</key>
 		<string>“Elite” Would Like to Access the Camera - Allow access to the camera to take photos for your profile.</string>
 		<key>NSMicrophoneUsageDescription</key>
-    	<string>“Elite” Would Like to Access the Microphone - Allow access to the microphone to upload audio to your profile.</string>
+		<string>“Elite” Would Like to Access the Microphone - Allow access to the microphone to upload audio to your profile.</string>
 		<key>NSLocationWhenInUseUsageDescription</key>
-		<string>“Elite” Would Like to Access Your location - Allow access to the location in the background to discover people in your area in real-time.</string>    
+		<string>“Elite” Would Like to Access Your location - Allow access to the location in the background to discover people in your area in real-time.</string>
 		<key>NSLocationAlwaysUsageDescription</key>
 		<string>“Elite” Would Like to Access Your location - Allow access to the location to discover people in your area in real-time.</string>
 		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 		<string>“Elite” Would Like to Access Your location - Allow access to the location in the background to discover people in your area in real-time.</string>
 		<key>NSUserNotificationsUsageDescription</key>
-		<string>“Elite” Would Like to Send You Notifications - Allow push notifications to stay updated. Notifications can include alerts, sounds, and icon badges. These
-can be configured in Settings.</string>
+		<string>“Elite” Would Like to Send You Notifications - Allow push notifications to stay updated. Notifications can include alerts, sounds, and icon badges. These can be configured in Settings.</string>
 		<key>UIStatusBarHidden</key>
 		<true/>
 	</dict>

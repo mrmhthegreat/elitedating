@@ -1,3 +1,4 @@
+import 'package:eliteinapp/main.dart';
 import 'package:get/get.dart';
 
 import '../modules/home/bindings/home_binding.dart';
@@ -16,6 +17,11 @@ class AppPages {
       page: () => const HomeView(),
       binding: HomeBinding(),
     ),
+      GetPage(
+      name: _Paths.CHAT,
+      page: () => const InitScreen(),
+    ),
+    
   
   ];
 }
